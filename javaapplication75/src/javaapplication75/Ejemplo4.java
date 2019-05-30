@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package javaapplication75;
 
 import java.util.Random;
@@ -10,12 +5,12 @@ import java.util.Scanner;
 
 /**
  *
- * @author reroes
+ * @author vysery98
  */
 public class Ejemplo4 {
 
     public static void main(String[] args) {
-        // TODO code application logic here
+
         Scanner entrada = new Scanner(System.in);
         Random aleatorios = new Random();
         int[] datos = new int[3]; // arreglo 1
@@ -33,10 +28,12 @@ public class Ejemplo4 {
                     datos[2] = datos[2] + 1;
                 }
             }
-            
-            System.out.println("Ingrese -1 para salir, caso contrario con cualquier número volvera a presentar el mensaje de ingrese valor");
+
+            System.out.println("Ingrese -1 para salir, caso contrario con cualq"
+                    + "uier número volvera a presentar el mensaje de ingrese va"
+                    + "lor");
             int salir = entrada.nextInt();
-            if(salir == -1){
+            if (salir == -1) {
                 bandera = false;
             }
         }
